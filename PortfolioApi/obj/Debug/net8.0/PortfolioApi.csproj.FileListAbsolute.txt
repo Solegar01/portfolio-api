@@ -129,6 +129,7 @@ C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.Assemb
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.csproj.CoreCompileInputs.cache
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.sourcelink.json
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
