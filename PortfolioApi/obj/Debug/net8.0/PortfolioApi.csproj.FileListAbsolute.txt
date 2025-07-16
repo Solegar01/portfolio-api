@@ -138,10 +138,10 @@ C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\staticwebassets.bui
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\Portfoli.F681FCC7.Up2Date
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.dll
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\refint\PortfolioApi.dll
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.pdb
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.genruntimeconfig.cache
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\ref\PortfolioApi.dll
-C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
