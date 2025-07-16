@@ -78,6 +78,13 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
+// Migrate database on startup
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate();
+}
+
 // Development-only Swagger
 // if (app.Environment.IsDevelopment())
 // {
