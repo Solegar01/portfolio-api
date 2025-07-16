@@ -2,8 +2,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY nuget.config . 
-
 # Salin file csproj & restore dependencies dulu
 COPY PortfolioApi/*.csproj ./PortfolioApi/
 RUN dotnet restore ./PortfolioApi/PortfolioApi.csproj --no-cache
