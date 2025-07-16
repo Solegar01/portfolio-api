@@ -2,18 +2,21 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
+# Salin file csproj & restore dependencies dulu
 COPY PortfolioApi/*.csproj ./PortfolioApi/
-RUN dotnet restore ./PortfolioApi/PortfolioApi.csproj
+RUN dotnet restore ./PortfolioApi/PortfolioApi.csproj --no-cache
 
+# Copy semua isi repo
 COPY . .
-RUN dotnet publish ./PortfolioApi/PortfolioApi.csproj -c Release -o /app/publish
+
+# Publish project ke folder publish
+RUN dotnet publish ./PortfolioApi/PortfolioApi.csproj -c Release -o /app/publish --no-restore
 
 # Stage 2: Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# Railway uses PORT environment variable
 ENV ASPNETCORE_URLS=http://+:${PORT}
 EXPOSE 8080
 
