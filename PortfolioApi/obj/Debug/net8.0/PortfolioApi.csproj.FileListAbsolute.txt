@@ -144,3 +144,4 @@ C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\refint\PortfolioApi
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.pdb
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\PortfolioApi.genruntimeconfig.cache
 C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\ref\PortfolioApi.dll
+C:\Tutorials\.NET\PortfolioApi\PortfolioApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
