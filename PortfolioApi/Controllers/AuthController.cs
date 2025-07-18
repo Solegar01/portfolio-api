@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using PortfolioApi.Data;
 using PortfolioApi.Models;
@@ -6,6 +6,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
+using PortfolioApi.Services.UserService;
+using PortfolioApi.ViewModels;
 
 namespace PortfolioApi.Controllers
 {
@@ -13,50 +15,57 @@ namespace PortfolioApi.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
-        private readonly IConfiguration _config;
+        private readonly IUserService _userService;
+        private readonly IConfiguration _config; // Added IConfiguration dependency
 
-        public AuthController(ApplicationDbContext context, IConfiguration config)
+        public AuthController(IUserService userService, IConfiguration config) // Inject IConfiguration
         {
-            _context = context;
+            _userService = userService;
             _config = config;
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register(UserDto userDto)
+        public async Task<IActionResult> Register(UserViewModel model)
         {
-            if (_context.Users.Any(u => u.Email == userDto.Email))
-                return BadRequest("User already exists");
+            if (string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
+                return BadRequest(ApiResponseViewModel<string>.Fail("Email and password are required"));
 
-            var user = new User
-            {
-                Email = userDto.Email,
-                PasswordHash = BCrypt.Net.BCrypt.HashPassword(userDto.Password)
-            };
+            var existingUser = await _userService.GetByEmailAsync(model.Email);
+            if (existingUser != null)
+                return Conflict(ApiResponseViewModel<string>.Fail("User already exists"));
 
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+            var user = await _userService.RegisterAsync(model);
+            if (user == null)
+                return BadRequest(ApiResponseViewModel<string>.Fail("Registration failed"));
 
-            return Ok("User registered successfully");
+            return Ok(ApiResponseViewModel<string>.Ok("User registered successfully"));
         }
+
 
         [HttpPost("login")]
-        public IActionResult Login(UserDto userDto)
+        public async Task<IActionResult> Login(UserViewModel model)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Email == userDto.Email);
-            if (user == null || !BCrypt.Net.BCrypt.Verify(userDto.Password, user.PasswordHash))
-                return Unauthorized("Invalid credentials");
+            if (string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
+                return BadRequest(ApiResponseViewModel<string>.Fail("Email and password are required"));
 
-            var token = GenerateJwtToken(user);
-            return Ok(new { token });
+            try
+            {
+                var user = await _userService.LoginAsync(model);
+                var token = GenerateJwtToken(user.Email); // Gunakan email langsung
+                return Ok(ApiResponseViewModel<Object>.Ok(new { token }));
+            }
+            catch (UnauthorizedAccessException)
+            {
+                return Unauthorized(ApiResponseViewModel<string>.Fail("Invalid email or password"));
+            }
         }
 
-        private string GenerateJwtToken(User user)
+        private string GenerateJwtToken(string email)
         {
             var claims = new[]
             {
-                new Claim(ClaimTypes.Name, user.Email),
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
+                new Claim(ClaimTypes.Name, email),
+                new Claim(ClaimTypes.NameIdentifier, email)
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
@@ -64,7 +73,7 @@ namespace PortfolioApi.Controllers
 
             var token = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],
-                audience: null,
+                audience: _config["Jwt:Audience"], // ✅ tambahkan Audience di appsettings jika perlu
                 claims: claims,
                 expires: DateTime.UtcNow.AddHours(2),
                 signingCredentials: creds
@@ -72,11 +81,7 @@ namespace PortfolioApi.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-    }
 
-    public class UserDto
-    {
-        public string Email { get; set; } = null!;
-        public string Password { get; set; } = null!;
+
     }
 }
