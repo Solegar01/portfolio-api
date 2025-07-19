@@ -3,8 +3,132 @@
   "WorkspaceRootPath": "C:\\Tutorials\\.NET\\PortfolioApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\controllers\\profilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\profilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\profileservice\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\profileservice\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\profileservice\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\profileservice\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\controllers\\experiencescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\experiencescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\controllers\\educationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\educationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\viewmodels\\projectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\viewmodels\\projectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\educationservice\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\educationservice\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\viewmodels\\educationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\viewmodels\\educationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\educationservice\\ieducationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\educationservice\\ieducationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\projectservice\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\projectservice\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\projectservice\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\projectservice\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\contactmessageservice\\icontactmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\contactmessageservice\\icontactmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\contactmessageservice\\contactmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\contactmessageservice\\contactmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\viewmodels\\contactmessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\viewmodels\\contactmessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\skillservice\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\skillservice\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\skillservice\\iskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\skillservice\\iskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\experienceservice\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\experienceservice\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\experienceservice\\iexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\experienceservice\\iexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\viewmodels\\experienceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\viewmodels\\experienceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\viewmodels\\skillviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\viewmodels\\skillviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\viewmodels\\apiresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,40 +143,12 @@
       "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\migrations\\20250715075859_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\migrations\\20250715075859_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|solutionrelative:portfolioapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7658B32-2E0E-4A61-9232-EECE2F8257E6}|PortfolioApi\\PortfolioApi.csproj|c:\\tutorials\\.net\\portfolioapi\\portfolioapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,104 +182,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiResponseViewModel.cs",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ApiResponseViewModel.cs",
-              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\ApiResponseViewModel.cs",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ApiResponseViewModel.cs",
-              "RelativeToolTip": "PortfolioApi\\ViewModels\\ApiResponseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProfilesController.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ProfilesController.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\ProfilesController.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ProfilesController.cs",
+              "RelativeToolTip": "PortfolioApi\\Controllers\\ProfilesController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAkwFAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T15:54:25.274Z",
+              "WhenOpened": "2025-07-19T12:58:15.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\UserService\\UserService.cs",
-              "RelativeDocumentMoniker": "PortfolioApi\\Services\\UserService\\UserService.cs",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\UserService\\UserService.cs",
-              "RelativeToolTip": "PortfolioApi\\Services\\UserService\\UserService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwB8AAAAUAAAAAAAAAA==",
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "PortfolioApi\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T15:23:13.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "PortfolioApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAkwDMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T15:19:21.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\UserService\\IUserService.cs",
-              "RelativeDocumentMoniker": "PortfolioApi\\Services\\UserService\\IUserService.cs",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\UserService\\IUserService.cs",
-              "RelativeToolTip": "PortfolioApi\\Services\\UserService\\IUserService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAApwAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T15:19:07.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "PortfolioApi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "PortfolioApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T14:35:32.187Z",
+              "WhenOpened": "2025-07-15T09:30:18.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\appsettings.json",
-              "RelativeDocumentMoniker": "PortfolioApi\\appsettings.json",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\appsettings.json",
-              "RelativeToolTip": "PortfolioApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-16T14:32:53.517Z",
+              "Title": "SkillsController.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\SkillsController.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\SkillsController.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\SkillsController.cs",
+              "RelativeToolTip": "PortfolioApi\\Controllers\\SkillsController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:56:02.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\UserViewModel.cs",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\UserViewModel.cs",
-              "RelativeToolTip": "PortfolioApi\\ViewModels\\UserViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ProfileService\\ProfileService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\ProfileService\\ProfileService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ProfileService\\ProfileService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\ProfileService\\ProfileService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T15:21:13.656Z",
+              "WhenOpened": "2025-07-19T12:52:47.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProfileService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ProfileService\\IProfileService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\ProfileService\\IProfileService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ProfileService\\IProfileService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\ProfileService\\IProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:51:13.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExperiencesController.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ExperiencesController.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\ExperiencesController.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ExperiencesController.cs",
+              "RelativeToolTip": "PortfolioApi\\Controllers\\ExperiencesController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwD4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:00:45.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "EducationsController.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\EducationsController.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\EducationsController.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\EducationsController.cs",
+              "RelativeToolTip": "PortfolioApi\\Controllers\\EducationsController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:03:47.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "PortfolioApi\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:16:23.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Program.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Program.cs",
               "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Program.cs",
               "RelativeToolTip": "PortfolioApi\\Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T13:40:55.286Z",
               "EditorCaption": ""
@@ -191,6 +300,341 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "PortfolioApi\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:51:33.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Models\\Profile.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\Profile.cs",
+              "RelativeToolTip": "PortfolioApi\\Models\\Profile.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T14:33:06.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjectViewModel.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ProjectViewModel.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\ProjectViewModel.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ProjectViewModel.cs",
+              "RelativeToolTip": "PortfolioApi\\ViewModels\\ProjectViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:45:12.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EducationService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\EducationService\\EducationService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\EducationService\\EducationService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\EducationService\\EducationService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\EducationService\\EducationService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:04:57.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PortfolioApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:19:21.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\UserViewModel.cs",
+              "RelativeToolTip": "PortfolioApi\\ViewModels\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:21:13.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EducationViewModel.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\EducationViewModel.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\EducationViewModel.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\EducationViewModel.cs",
+              "RelativeToolTip": "PortfolioApi\\ViewModels\\EducationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:53:09.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IEducationService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\EducationService\\IEducationService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\EducationService\\IEducationService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\EducationService\\IEducationService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\EducationService\\IEducationService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:04:28.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ProjectService\\IProjectService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\ProjectService\\IProjectService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ProjectService\\IProjectService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\ProjectService\\IProjectService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:39:32.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ProjectService\\ProjectService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\ProjectService\\ProjectService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ProjectService\\ProjectService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\ProjectService\\ProjectService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:44:28.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IContactMessageService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ContactMessageService\\IContactMessageService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\ContactMessageService\\IContactMessageService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ContactMessageService\\IContactMessageService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\ContactMessageService\\IContactMessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:11:48.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ContactMessageService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ContactMessageService\\ContactMessageService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\ContactMessageService\\ContactMessageService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ContactMessageService\\ContactMessageService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\ContactMessageService\\ContactMessageService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowHsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:12:16.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ContactMessageViewModel.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ContactMessageViewModel.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\ContactMessageViewModel.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ContactMessageViewModel.cs",
+              "RelativeToolTip": "PortfolioApi\\ViewModels\\ContactMessageViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:10:11.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Models\\ContactMessage.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\ContactMessage.cs",
+              "RelativeToolTip": "PortfolioApi\\Models\\ContactMessage.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T11:10:21.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ISkillService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\SkillService\\ISkillService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\SkillService\\ISkillService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\SkillService\\ISkillService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\SkillService\\ISkillService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:54:47.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SkillService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\SkillService\\SkillService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\SkillService\\SkillService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\SkillService\\SkillService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\SkillService\\SkillService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:55:10.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\UserService\\UserService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\UserService\\UserService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\UserService\\UserService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\UserService\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:23:13.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ExperienceService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ExperienceService\\ExperienceService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\ExperienceService\\ExperienceService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ExperienceService\\ExperienceService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\ExperienceService\\ExperienceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:59:10.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IExperienceService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ExperienceService\\IExperienceService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\ExperienceService\\IExperienceService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\ExperienceService\\IExperienceService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\ExperienceService\\IExperienceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:58:30.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ExperienceViewModel.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ExperienceViewModel.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\ExperienceViewModel.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ExperienceViewModel.cs",
+              "RelativeToolTip": "PortfolioApi\\ViewModels\\ExperienceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:53:19.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SkillViewModel.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\SkillViewModel.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\SkillViewModel.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\SkillViewModel.cs",
+              "RelativeToolTip": "PortfolioApi\\ViewModels\\SkillViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:53:30.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Models\\Skill.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\Skill.cs",
+              "RelativeToolTip": "PortfolioApi\\Models\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T14:22:58.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\UserService\\IUserService.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Services\\UserService\\IUserService.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Services\\UserService\\IUserService.cs",
+              "RelativeToolTip": "PortfolioApi\\Services\\UserService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:19:07.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PortfolioApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T14:35:32.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApiResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ApiResponseViewModel.cs",
+              "RelativeDocumentMoniker": "PortfolioApi\\ViewModels\\ApiResponseViewModel.cs",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\ViewModels\\ApiResponseViewModel.cs",
+              "RelativeToolTip": "PortfolioApi\\ViewModels\\ApiResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:54:25.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\appsettings.json",
+              "RelativeDocumentMoniker": "PortfolioApi\\appsettings.json",
+              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\appsettings.json",
+              "RelativeToolTip": "PortfolioApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T14:32:53.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "20250715075859_AddUser.cs",
               "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Migrations\\20250715075859_AddUser.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Migrations\\20250715075859_AddUser.cs",
@@ -202,31 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\Profile.cs",
-              "RelativeDocumentMoniker": "PortfolioApi\\Models\\Profile.cs",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\Profile.cs",
-              "RelativeToolTip": "PortfolioApi\\Models\\Profile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA4wAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T14:33:06.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Skill.cs",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\Skill.cs",
-              "RelativeDocumentMoniker": "PortfolioApi\\Models\\Skill.cs",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\Skill.cs",
-              "RelativeToolTip": "PortfolioApi\\Models\\Skill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T14:22:58.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 36,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Models\\Project.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Models\\Project.cs",
@@ -238,19 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\ProjectsController.cs",
-              "ToolTip": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "PortfolioApi\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAYwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T09:30:18.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 37,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Tutorials\\.NET\\PortfolioApi\\PortfolioApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "PortfolioApi\\Controllers\\WeatherForecastController.cs",

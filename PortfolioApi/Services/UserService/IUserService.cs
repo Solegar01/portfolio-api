@@ -4,8 +4,8 @@ namespace PortfolioApi.Services.UserService
 {
     public interface IUserService
     {
-        public Task<UserViewModel> LoginAsync(UserViewModel model);
-        public Task<UserViewModel> RegisterAsync(UserViewModel model);
-        public Task<UserViewModel> GetByEmailAsync(string email);
+        Task<UserViewModel?> LoginAsync(UserViewModel model);
+        Task<UserViewModel> RegisterAsync(UserViewModel model);
+        Task<UserViewModel?> GetByEmailAsync(string email);
     }
 }

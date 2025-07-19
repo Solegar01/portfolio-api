@@ -5,6 +5,12 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
 using PortfolioApi.Services.UserService;
+using PortfolioApi.Services.ProjectService;
+using PortfolioApi.Services.ContactMessageService;
+using PortfolioApi.Services.EducationService;
+using PortfolioApi.Services.ExperienceService;
+using PortfolioApi.Services.SkillService;
+using PortfolioApi.Services.ProfileService;
 
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
@@ -78,6 +84,12 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<IContactMessageService, ContactMessageService>();
+builder.Services.AddScoped<IEducationService, EducationService>();
+builder.Services.AddScoped<IExperienceService, ExperienceService>();
+builder.Services.AddScoped<ISkillService, SkillService>();
+builder.Services.AddScoped<IProfileService, ProfileService>();
 
 var app = builder.Build();
 

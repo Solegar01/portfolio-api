@@ -3,41 +3,49 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PortfolioApi.Data;
 using PortfolioApi.Models;
+using PortfolioApi.Services.ContactMessageService;
+using PortfolioApi.ViewModels;
 
 namespace PortfolioApi.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ContactController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IContactMessageService _contactMessageService;
 
-        public ContactController(ApplicationDbContext context)
+        public ContactController(IContactMessageService contactMessageService)
         {
-            _context = context;
+            _contactMessageService = contactMessageService;
         }
 
-        [HttpPost]
-        public async Task<ActionResult> Send(ContactMessage message)
+        [HttpPost("send")]
+        public async Task<ActionResult> Send(ContactMessageViewModel message)
         {
-            if (string.IsNullOrWhiteSpace(message.Email) || string.IsNullOrWhiteSpace(message.Message))
-                return BadRequest("Email and Message are required.");
-
-            message.CreatedAt = DateTime.UtcNow;
-
-            _context.ContactMessages.Add(message);
-            await _context.SaveChangesAsync();
-
-            return Ok(new { message = "Thank you for contacting me!" });
+            if (string.IsNullOrEmpty(message.Name) || string.IsNullOrEmpty(message.Email) || string.IsNullOrEmpty(message.Message))
+            {
+                return BadRequest(ApiResponseViewModel<string>.Fail("Name, email, and message are required"));
+            }
+            var contactMessage = new ContactMessageViewModel
+            {
+                Name = message.Name,
+                Email = message.Email,
+                Message = message.Message,
+                CreatedAt = DateTime.UtcNow
+            };
+            await _contactMessageService.SendAsync(contactMessage);
+            return Ok(ApiResponseViewModel<string>.Ok("Message sent successfully"));
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ContactMessage>>> GetAll()
+        public async Task<ActionResult<IEnumerable<ContactMessageViewModel>>> GetAll()
         {
-            return await _context.ContactMessages
-                .OrderByDescending(c => c.CreatedAt)
-                .ToListAsync();
+            var messages = await _contactMessageService.GetAllAsync();
+            if (messages == null || !messages.Any())
+            {
+                return NotFound(ApiResponseViewModel<string>.Fail("No messages found"));
+            }
+            return Ok(ApiResponseViewModel<IEnumerable<ContactMessageViewModel>>.Ok(messages));
         }
     }
 }

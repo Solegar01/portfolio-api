@@ -1,4 +1,4 @@
-class EducationViewModel
+public class EducationViewModel
 {
     public int Id { get; set; }
     public string Institution { get; set; } = null!;

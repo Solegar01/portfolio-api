@@ -3,65 +3,78 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PortfolioApi.Data;
 using PortfolioApi.Models;
+using PortfolioApi.Services.ProjectService;
 
 namespace PortfolioApi.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ProjectsController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
-
-        public ProjectsController(ApplicationDbContext context)
+        private readonly IProjectService _projectService;
+        public ProjectsController(IProjectService projectService)
         {
-            _context = context;
+            _projectService = projectService;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Project>>> GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            return await _context.Projects.ToListAsync();
+            var projects = await _projectService.GetAllAsync();
+            return Ok(ApiResponseViewModel<IEnumerable<ProjectViewModel>>.Ok(projects));
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Project>> Get(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            var project = await _context.Projects.FindAsync(id);
+            var project = await _projectService.GetByIdAsync(id);
             if (project == null)
-                return NotFound();
-            return project;
+            {
+                return NotFound(ApiResponseViewModel<string>.Fail("Project not found"));
+            }
+            return Ok(ApiResponseViewModel<ProjectViewModel>.Ok(project));
         }
 
+        [Authorize]
         [HttpPost]
-        public async Task<ActionResult<Project>> Create(Project project)
+        public async Task<IActionResult> Create([FromBody] ProjectViewModel project)
         {
-            _context.Projects.Add(project);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(Get), new { id = project.Id }, project);
+            if (project == null)
+            {
+                return BadRequest(ApiResponseViewModel<string>.Fail("Invalid project data"));
+            }
+            var createdProject = await _projectService.CreateAsync(project);
+            return CreatedAtAction(nameof(GetById), new { id = createdProject.Id }, ApiResponseViewModel<ProjectViewModel>.Ok(createdProject));
         }
 
+        [Authorize]
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, Project updatedProject)
+        public async Task<IActionResult> Update(int id, [FromBody] ProjectViewModel updatedProject)
         {
-            if (id != updatedProject.Id)
-                return BadRequest();
-
-            _context.Entry(updatedProject).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-            return NoContent();
+            if (updatedProject == null)
+            {
+                return BadRequest(ApiResponseViewModel<string>.Fail("Invalid project data"));
+            }
+            var existingProject = await _projectService.GetByIdAsync(id);
+            if (existingProject == null)
+            {
+                return NotFound(ApiResponseViewModel<string>.Fail("Project not found"));
+            }
+            var project = await _projectService.UpdateAsync(id, updatedProject);
+            return Ok(ApiResponseViewModel<ProjectViewModel>.Ok(project));
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var project = await _context.Projects.FindAsync(id);
-            if (project == null)
-                return NotFound();
-
-            _context.Projects.Remove(project);
-            await _context.SaveChangesAsync();
-            return NoContent();
+            var existingProject = await _projectService.GetByIdAsync(id);
+            if (existingProject == null)
+            {
+                return NotFound(ApiResponseViewModel<string>.Fail("Project not found"));
+            }
+            await _projectService.DeleteAsync(id);
+            return Ok(ApiResponseViewModel<string>.Ok("Project deleted successfully"));
         }
     }
 }

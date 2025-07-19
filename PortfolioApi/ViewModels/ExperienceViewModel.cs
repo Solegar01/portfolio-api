@@ -1,4 +1,4 @@
-class ExperienceViewModel
+public class ExperienceViewModel
 {
     public int Id { get; set; }
     public string? Company { get; set; }
